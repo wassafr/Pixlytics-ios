@@ -1,0 +1,16 @@
+PODS:
+  - Pixlytics (0.1.0)
+
+DEPENDENCIES:
+  - Pixlytics (from `../`)
+
+EXTERNAL SOURCES:
+  Pixlytics:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Pixlytics: 7a3394f847cd422f77050755f625a3399269e2df
+
+PODFILE CHECKSUM: afe56e0a6f70174d5c06e561cddae4aff2d6176c
+
+COCOAPODS: 1.6.0

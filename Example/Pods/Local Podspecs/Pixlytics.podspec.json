@@ -1,0 +1,22 @@
+{
+  "name": "Pixlytics",
+  "version": "0.1.0",
+  "summary": "A short description of Pixlytics.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Bertrand VILLAIN/Pixlytics",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bertrand VILLAIN": "bertrand.villain@wassa.fr"
+  },
+  "source": {
+    "git": "https://github.com/Bertrand VILLAIN/Pixlytics.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Pixlytics/Classes/**/*"
+}

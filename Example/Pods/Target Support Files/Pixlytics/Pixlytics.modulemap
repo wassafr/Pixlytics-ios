@@ -1,0 +1,6 @@
+framework module Pixlytics {
+  umbrella header "Pixlytics-umbrella.h"
+
+  export *
+  module * { export * }
+}
