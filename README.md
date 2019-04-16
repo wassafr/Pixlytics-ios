@@ -58,7 +58,8 @@ Keep the service optionnal as it can fail at init.
 
 ## Documentation
 
-You can find a more detailled documentation of the SDK at the following [address] (www.pixlytics.io/docs)
+You can find a more detailled documentation of the SDK at the following [address](www.pixlytics.io/docs).
+If you need to contact us, send an email at support@wassa.io
 
 ## Requirements
 
