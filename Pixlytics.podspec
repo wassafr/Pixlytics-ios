@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/wassafr/Pixlytics-ios'
   s.license          = { :type => 'COMMERCIAL', :file => 'LICENSE' }
   s.author           = { 'Wassa' => 'bertrand.villain@wassa.io' }
-  s.source       = { :https => 'https://github.com/wassafr/Pixlytics-ios/blob/0.1.0/Pixlytics_SDK.zip'}
+  s.source       = { :http => 'http://github.com/wassafr/Pixlytics-ios/blob/0.1.0/Pixlytics_SDK.zip'}
   #s.source           = { :http => 'file:' + __dir__ + '/Pixlytics_SDK.zip' }
   s.social_media_url = 'https://twitter.com/wassabemobile'
 
