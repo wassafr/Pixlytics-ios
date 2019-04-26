@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   s.ios.vendored_frameworks = 'Pixlytics_SDK.framework'
   
   s.frameworks = 'Pixlytics_SDK'
-  s.dependency 'Alamofire', '~> 4.8.2'
+  s.dependency 'Alamofire', '~> 4.7.3'
   s.dependency 'ZIPFoundation', '~> 0.9.8'
 
 end

@@ -64,7 +64,7 @@ If you need to contact us, send an email at support@wassa.io
 ## Requirements
 
 * Xcode 10.0+
-* iOS 9.0+
+* iOS 10.0+
 
 ## License
 
