@@ -24,7 +24,7 @@ All this operations are made with requests to Pixlytics server but the recogniti
 
 ## Usage
 
-You can find a sample app code that shows the different ways of using the SDK [Here](https://github.com/wassafr)
+You can find a sample app code that shows the different ways of using the SDK [Here](https://github.com/wassafr/Pixlytics-DemoApp-iOS)
 
 **Attention :** To use the SDK, you need a license key that you can get on the [Pixlytics website](https://www.pixlytics.io)
 
