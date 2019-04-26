@@ -1,3 +1,5 @@
+![Pixlytics](https://github.com/wassafr/Pixlytics-ios/raw/master/icon_pix.jpg)
+
 # Pixlytics
 
 [![Version](https://img.shields.io/cocoapods/v/Pixlytics.svg?style=flat)](http://cocoapods.org/pods/Pixlytics)
@@ -59,7 +61,7 @@ Keep the service optionnal as it can fail at init.
 ## Documentation
 
 You can find a more detailled documentation of the SDK at the following [address](www.pixlytics.io/docs).
-If you need to contact us, send an email at support@wassa.io
+If you need to contact us, send an email at support@pixlytics.io
 
 ## Requirements
 
@@ -72,4 +74,4 @@ Pixlytics is available under a commercial license. See the LICENSE file for more
 
 ## Author
 
-Wassa, contact@wassa.fr
+Wassa, contact@pixlytics.io

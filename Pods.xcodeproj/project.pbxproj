@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		156F21A1592B792EF4234214404BC3C2 /* Pods-Pixlytics_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 713CBD5250E19CF982CF12C51E4A036A /* Pods-Pixlytics_Example-dummy.m */; };
-		26DF90C8D0EA1EABF03B5F418B930A6B /* Pods-Pixlytics_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4DB34B114AE947D65F01503F2584D39 /* Pods-Pixlytics_Tests-dummy.m */; };
 		2777D0F3F9831B843DFB8E248D4524AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		3B3EC4FE297D1B8CEDBAF4FD1FAF9C7E /* Pods-Pixlytics_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CBC6960E9463718F1530798BA1483B /* Pods-Pixlytics_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DB39651406CEF37E685E0519C2CFD85 /* Pixlytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A17D93C134F32BED7A01ADB99F5CF1 /* Pixlytics-dummy.m */; };
-		5E65B29D87B2958855ADDBECDB2E9CC0 /* Pods-Pixlytics_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3649E78BA5B3379CB63FD50E6A7FB7BE /* Pods-Pixlytics_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EA6B21ECEFEA89F696C8DCFB3631ACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		8CFCD458B1D0E5A041366E06F7D780B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		B190F3A293A60760C4C951FAA6DA09B5 /* Pixlytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CBB8490EEC6732A39F74EA8877969D /* Pixlytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCEC097A22736CDB00E4C640 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = DCEC097922736CDB00E4C640 /* LICENSE.md */; };
+		DCEC097C22736CFE00E4C640 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DCEC097B22736CFE00E4C640 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,37 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00107BDA2BC3002F22ED3BE3B8BFBA5D /* Pods-Pixlytics_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pixlytics_Tests.modulemap"; sourceTree = "<group>"; };
-		18AF2DCDB373029CAB62E366599DCB1D /* Pods-Pixlytics_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pixlytics_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1F2BCF3BD1CB8EDA266FBF47F9FF3A63 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		33CBC6960E9463718F1530798BA1483B /* Pods-Pixlytics_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pixlytics_Example-umbrella.h"; sourceTree = "<group>"; };
-		35C8E1DC3E2B1D8DC770BFD7CE7D03D5 /* Pods-Pixlytics_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pixlytics_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3649E78BA5B3379CB63FD50E6A7FB7BE /* Pods-Pixlytics_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pixlytics_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3AB57AE968349AD747999B8332AD8610 /* Pods-Pixlytics_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pixlytics_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3D8797343CC8E15DE9C5D7FE98A85AB1 /* Pixlytics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pixlytics-prefix.pch"; sourceTree = "<group>"; };
-		40FDDECE3CD015FB6867821AF91AECA2 /* Pods-Pixlytics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pixlytics_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		479605046C0553F6B9601161264A8BFB /* Pixlytics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pixlytics-Info.plist"; sourceTree = "<group>"; };
-		4B7591DBEE91A3DFC43ED3D5D739C3B2 /* Pods-Pixlytics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pixlytics_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		713CBD5250E19CF982CF12C51E4A036A /* Pods-Pixlytics_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pixlytics_Example-dummy.m"; sourceTree = "<group>"; };
-		779C9CDD3479AE70472C989D10D0909D /* Pods-Pixlytics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pixlytics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		849C14B7C5E5AAC0B9D97F0423275B40 /* Pods-Pixlytics_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pixlytics_Example-Info.plist"; sourceTree = "<group>"; };
-		85A0B44227958D4C3A8598220C276F33 /* Pixlytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pixlytics.xcconfig; sourceTree = "<group>"; };
 		90988838B8F9A8DBA32910A92D3419AA /* Pods_Pixlytics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixlytics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94CBB8490EEC6732A39F74EA8877969D /* Pixlytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pixlytics-umbrella.h"; sourceTree = "<group>"; };
 		9B6852B88636935D461EB0BACFC4B949 /* Pods_Pixlytics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixlytics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7AD84769A3E70E8203B9F242D76B285 /* Pixlytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pixlytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0A17D93C134F32BED7A01ADB99F5CF1 /* Pixlytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pixlytics-dummy.m"; sourceTree = "<group>"; };
-		C4DB34B114AE947D65F01503F2584D39 /* Pods-Pixlytics_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pixlytics_Tests-dummy.m"; sourceTree = "<group>"; };
-		C67783AFA3C6439BB4357ECEE843D1FB /* Pods-Pixlytics_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pixlytics_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D22EEB278EEBF6A9EBE125410D8BF64C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D3ADDDD7BFA79E1CFABA8D44F35A8E2D /* Pods-Pixlytics_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pixlytics_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D77B4EE1AD3683A0EAC990F916C5EA6B /* Pods-Pixlytics_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pixlytics_Example.modulemap"; sourceTree = "<group>"; };
-		D7A7DC949676E85D2588DE15D7CA4B63 /* Pixlytics.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Pixlytics.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E4296D94C710C81E3A90BB25D91C6AC1 /* Pods-Pixlytics_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pixlytics_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F1D9C606A9E494E4D9A919459B37F485 /* Pods-Pixlytics_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pixlytics_Tests-Info.plist"; sourceTree = "<group>"; };
-		FB4D17FD64A51950BE9113FAF3CDEBDB /* Pixlytics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Pixlytics.modulemap; sourceTree = "<group>"; };
+		DCEC097922736CDB00E4C640 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		DCEC097B22736CFE00E4C640 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,25 +68,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07E68CE77BE575CDE2CD7FC61AF36EEB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FB4D17FD64A51950BE9113FAF3CDEBDB /* Pixlytics.modulemap */,
-				85A0B44227958D4C3A8598220C276F33 /* Pixlytics.xcconfig */,
-				B0A17D93C134F32BED7A01ADB99F5CF1 /* Pixlytics-dummy.m */,
-				479605046C0553F6B9601161264A8BFB /* Pixlytics-Info.plist */,
-				3D8797343CC8E15DE9C5D7FE98A85AB1 /* Pixlytics-prefix.pch */,
-				94CBB8490EEC6732A39F74EA8877969D /* Pixlytics-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pixlytics";
-			sourceTree = "<group>";
-		};
 		12CB04CB38C5D22F8E907E1702CA9F75 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D528AF09EEC49178E7130C6BAF1C3771 /* Pods-Pixlytics_Example */,
-				4503A47C4078EFD5B95F44EF87FEC321 /* Pods-Pixlytics_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -130,22 +85,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4503A47C4078EFD5B95F44EF87FEC321 /* Pods-Pixlytics_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				00107BDA2BC3002F22ED3BE3B8BFBA5D /* Pods-Pixlytics_Tests.modulemap */,
-				35C8E1DC3E2B1D8DC770BFD7CE7D03D5 /* Pods-Pixlytics_Tests-acknowledgements.markdown */,
-				D3ADDDD7BFA79E1CFABA8D44F35A8E2D /* Pods-Pixlytics_Tests-acknowledgements.plist */,
-				C4DB34B114AE947D65F01503F2584D39 /* Pods-Pixlytics_Tests-dummy.m */,
-				F1D9C606A9E494E4D9A919459B37F485 /* Pods-Pixlytics_Tests-Info.plist */,
-				3649E78BA5B3379CB63FD50E6A7FB7BE /* Pods-Pixlytics_Tests-umbrella.h */,
-				779C9CDD3479AE70472C989D10D0909D /* Pods-Pixlytics_Tests.debug.xcconfig */,
-				40FDDECE3CD015FB6867821AF91AECA2 /* Pods-Pixlytics_Tests.release.xcconfig */,
-			);
-			name = "Pods-Pixlytics_Tests";
-			path = "Target Support Files/Pods-Pixlytics_Tests";
-			sourceTree = "<group>";
-		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,9 +96,8 @@
 		B658B5CC9E8000D9A9465033B9FF5D8C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1F2BCF3BD1CB8EDA266FBF47F9FF3A63 /* LICENSE */,
-				D7A7DC949676E85D2588DE15D7CA4B63 /* Pixlytics.podspec */,
-				D22EEB278EEBF6A9EBE125410D8BF64C /* README.md */,
+				DCEC097922736CDB00E4C640 /* LICENSE.md */,
+				DCEC097B22736CFE00E4C640 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -168,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				B658B5CC9E8000D9A9465033B9FF5D8C /* Pod */,
-				07E68CE77BE575CDE2CD7FC61AF36EEB /* Support Files */,
 			);
 			name = Pixlytics;
 			path = ../..;
@@ -177,7 +114,6 @@
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				DB11743811C10167458B76BB2B16755D /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				3DED1A8EC30E79CE44126C56898291AF /* Products */,
@@ -191,23 +127,6 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D528AF09EEC49178E7130C6BAF1C3771 /* Pods-Pixlytics_Example */ = {
-			isa = PBXGroup;
-			children = (
-				D77B4EE1AD3683A0EAC990F916C5EA6B /* Pods-Pixlytics_Example.modulemap */,
-				C67783AFA3C6439BB4357ECEE843D1FB /* Pods-Pixlytics_Example-acknowledgements.markdown */,
-				18AF2DCDB373029CAB62E366599DCB1D /* Pods-Pixlytics_Example-acknowledgements.plist */,
-				713CBD5250E19CF982CF12C51E4A036A /* Pods-Pixlytics_Example-dummy.m */,
-				E4296D94C710C81E3A90BB25D91C6AC1 /* Pods-Pixlytics_Example-frameworks.sh */,
-				849C14B7C5E5AAC0B9D97F0423275B40 /* Pods-Pixlytics_Example-Info.plist */,
-				33CBC6960E9463718F1530798BA1483B /* Pods-Pixlytics_Example-umbrella.h */,
-				4B7591DBEE91A3DFC43ED3D5D739C3B2 /* Pods-Pixlytics_Example.debug.xcconfig */,
-				3AB57AE968349AD747999B8332AD8610 /* Pods-Pixlytics_Example.release.xcconfig */,
-			);
-			name = "Pods-Pixlytics_Example";
-			path = "Target Support Files/Pods-Pixlytics_Example";
 			sourceTree = "<group>";
 		};
 		DB11743811C10167458B76BB2B16755D /* Development Pods */ = {
@@ -225,7 +144,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B190F3A293A60760C4C951FAA6DA09B5 /* Pixlytics-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +151,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B3EC4FE297D1B8CEDBAF4FD1FAF9C7E /* Pods-Pixlytics_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +158,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E65B29D87B2958855ADDBECDB2E9CC0 /* Pods-Pixlytics_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +265,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEC097C22736CFE00E4C640 /* README.md in Resources */,
+				DCEC097A22736CDB00E4C640 /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DB39651406CEF37E685E0519C2CFD85 /* Pixlytics-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +291,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26DF90C8D0EA1EABF03B5F418B930A6B /* Pods-Pixlytics_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +298,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				156F21A1592B792EF4234214404BC3C2 /* Pods-Pixlytics_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +321,6 @@
 /* Begin XCBuildConfiguration section */
 		329494918721582B7A204A529C1D2271 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85A0B44227958D4C3A8598220C276F33 /* Pixlytics.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -444,7 +358,6 @@
 		};
 		67BCA44486B790C4E01D0ECF1BC4E523 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AB57AE968349AD747999B8332AD8610 /* Pods-Pixlytics_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -478,7 +391,6 @@
 		};
 		9FDA6774666024BC4F2C454005B75B23 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40FDDECE3CD015FB6867821AF91AECA2 /* Pods-Pixlytics_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -576,7 +488,6 @@
 		};
 		B2263AEC9F4F0DF931FCA85C9B4A03D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85A0B44227958D4C3A8598220C276F33 /* Pixlytics.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -614,7 +525,6 @@
 		};
 		BF2DAB86D07CA204533035DA11DCDC80 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B7591DBEE91A3DFC43ED3D5D739C3B2 /* Pods-Pixlytics_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -647,7 +557,6 @@
 		};
 		E527C10587B6F11088F9224A075BCB78 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 779C9CDD3479AE70472C989D10D0909D /* Pods-Pixlytics_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
