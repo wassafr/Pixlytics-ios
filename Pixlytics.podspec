@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Pixlytics'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Pixlytics is a SDK allowing mobile apps to do recognition of items in picture, offline and online.'
 
   s.description      = <<-DESC
@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/wassafr/Pixlytics-ios'
   s.license          = { :type => 'COMMERCIAL', :file => __dir__ + '/LICENSE.md' }
   s.author           = { 'Wassa' => 'bertrand.villain@wassa.io' }
-#s.source           = { :http => 'https://github.com/wassafr/Pixlytics-ios/raw/master/Pixlytics_SDK.zip'}
-  s.source           = { :http => 'file:' + __dir__ + '/Pixlytics_SDK.zip' }
+  s.source           = { :http => 'https://github.com/wassafr/Pixlytics-ios/raw/master/Pixlytics_SDK.zip'}
+  #s.source           = { :http => 'file:' + __dir__ + '/Pixlytics_SDK.zip' }
   s.social_media_url = 'https://twitter.com/wassabemobile'
 
   s.platform         = :ios

@@ -10,6 +10,7 @@
 		2777D0F3F9831B843DFB8E248D4524AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		5EA6B21ECEFEA89F696C8DCFB3631ACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		8CFCD458B1D0E5A041366E06F7D780B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		DC039556227855EA00D96271 /* Pixlytics.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DC039555227855E900D96271 /* Pixlytics.podspec */; };
 		DCEC097A22736CDB00E4C640 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = DCEC097922736CDB00E4C640 /* LICENSE.md */; };
 		DCEC097C22736CFE00E4C640 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DCEC097B22736CFE00E4C640 /* README.md */; };
 /* End PBXBuildFile section */
@@ -36,6 +37,7 @@
 		9B6852B88636935D461EB0BACFC4B949 /* Pods_Pixlytics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pixlytics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7AD84769A3E70E8203B9F242D76B285 /* Pixlytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pixlytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC039555227855E900D96271 /* Pixlytics.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pixlytics.podspec; sourceTree = "<group>"; };
 		DCEC097922736CDB00E4C640 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		DCEC097B22736CFE00E4C640 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 		CA2F117A2B403BBEF20BF7919F19FE66 /* Pixlytics */ = {
 			isa = PBXGroup;
 			children = (
+				DC039555227855E900D96271 /* Pixlytics.podspec */,
 				B658B5CC9E8000D9A9465033B9FF5D8C /* Pod */,
 			);
 			name = Pixlytics;
@@ -267,6 +270,7 @@
 			files = (
 				DCEC097C22736CFE00E4C640 /* README.md in Resources */,
 				DCEC097A22736CDB00E4C640 /* LICENSE.md in Resources */,
+				DC039556227855EA00D96271 /* Pixlytics.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
