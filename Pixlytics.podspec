@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Pixlytics'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'Pixlytics is a SDK allowing mobile apps to do recognition of items in picture, offline and online.'
 
   s.description      = <<-DESC
@@ -28,10 +28,10 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/wassabemobile'
 
   s.platform         = :ios
-  #s.swift_version = '4.2'
+  s.swift_versions = '5.0'
   
   s.ios.deployment_target   = '10.0'
-  s.ios.vendored_frameworks = 'Pixlytics_SDK.framework'
+  s.ios.vendored_frameworks = 'Frameworks/Pixlytics_SDK.framework'
   
   s.frameworks = 'Pixlytics_SDK'
   s.dependency 'Alamofire', '~> 4.7.3'
