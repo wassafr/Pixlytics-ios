@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.swift_versions = '5.0'
   
   s.ios.deployment_target   = '10.0'
-  s.ios.vendored_frameworks = 'Frameworks/Pixlytics_SDK.framework'
+  s.ios.vendored_frameworks = 'Pixlytics_SDK.framework'
   
   s.frameworks = 'Pixlytics_SDK'
   s.dependency 'Alamofire', '~> 4.7.3'
