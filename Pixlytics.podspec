@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Pixlytics'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Pixlytics is a SDK allowing mobile apps to do recognition of items in picture, offline and online.'
 
   s.description      = <<-DESC
