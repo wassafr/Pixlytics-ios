@@ -70,7 +70,7 @@ If you need to contact us, send an email at support@pixlytics.io
 
 ## Requirements
 
-* Xcode 10.0+
+* Xcode 11.0+
 * iOS 10.0+
 
 ## License
