@@ -1,0 +1,11 @@
+framework module Pixlytics_SDK {
+  umbrella header "Pixlytics_SDK.h"
+
+  export *
+  module * { export * }
+}
+
+module Pixlytics_SDK.Swift {
+    header "Pixlytics_SDK-Swift.h"
+    requires objc
+}
